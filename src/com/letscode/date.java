@@ -11,7 +11,7 @@ public class date {
 
         LocalDate novaData = localDate.minus(2, ChronoUnit.MONTHS);
 
-        DateTimeFormatter dateFormatterr = DateTimeFormatter.ofPattern("d-MM-uuuu");
-        System.out.println("Data: "+ novaData.format(dateFormatterr));
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("d-MM-uuuu");
+        System.out.println("Data: "+ novaData.format(dateFormatter));
     }
 }
