@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 public class date {
     public static void main(String[] args){
         LocalDate localDate = LocalDate.parse("2022-06-12");
-        System.out.println("Data: "+ localDate);
+        System.out.println("Data: " + localDate);
 
         LocalDate novaData = localDate.minus(2, ChronoUnit.MONTHS);
 
